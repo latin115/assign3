@@ -65,7 +65,7 @@ void draw() {
     image(enemy,enemy_x-(3*30),122+61+j);
     image(enemy,enemy_x-(3*30),122-61+j);
     image(enemy,enemy_x-(4*30),122+j);
-    if(enemy_x < width+61)
+    if(enemy_x < width+122)
       enemy_x += speed;
     else{
       enemy_state = enemy_straight;
